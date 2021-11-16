@@ -1,6 +1,6 @@
 import { Platform } from "react-native";
 
-export const isDev = true;
+export const isDev = false;
 let dev = {
   server: "http://192.168.1.108:8082",
   ads: {
