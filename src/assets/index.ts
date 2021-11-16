@@ -3,7 +3,9 @@ let assets = {
   icons: {},
   logo: {},
   lotties: {},
-  placeholder: {},
+  placeholder: {
+    resume: require("./placeholder/resume.png"),
+  },
 };
 
 export default assets;

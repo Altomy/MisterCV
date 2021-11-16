@@ -9,6 +9,8 @@ import React, { useContext, useReducer, createContext } from "react";
 type DefaultT = {
   user: UserInterface;
   isAuth: boolean;
+  token: string;
+  userAds: boolean;
 };
 
 // ========== Initial States ========== //
@@ -18,12 +20,16 @@ let defaultValue: DefaultT = {
     phone: 0,
   },
   isAuth: true,
+  token: "",
+  userAds: false,
 };
 
 // ========== Actions ========== //
 type UserAction = { type: "setUser"; payload: UserInterface };
 type IsAuthAction = { type: "setIsAuth"; payload: boolean };
-type Actions = UserAction | IsAuthAction;
+type tokenAction = { type: "setToken"; payload: string };
+type userAdsActions = { type: "setUserAds"; payload: boolean };
+type Actions = UserAction | IsAuthAction | tokenAction | userAdsActions;
 
 // ========== ReducersFunction ========== //
 function reducerFunction(state: DefaultT, action: Actions) {
@@ -32,6 +38,10 @@ function reducerFunction(state: DefaultT, action: Actions) {
       return { ...state, user: action.payload };
     case "setIsAuth":
       return { ...state, isAuth: action.payload };
+    case "setToken":
+      return { ...state, token: action.payload };
+    case "setUserAds":
+      return { ...state, userAds: action.payload };
     default:
       return state;
   }

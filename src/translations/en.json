@@ -1,6 +1,233 @@
 {
   "translation": {
     "dir": "ltr",
-    "helloWorld": "Hello World"
+    "home": {
+      "youDontHaveAndCv": "You don't have any CV",
+      "addNewCv": "Add new CV from +",
+      "cvCardButtons": {
+        "share": "Share",
+        "remove": "Remove",
+        "edit": "Edit",
+        "preview": "Preview"
+      },
+      "sidePanel": {
+        "settings": "Settings",
+        "notifications": "Notifications",
+        "language": "Language",
+        "resetData": "Reset Data",
+        "aboutUs": "About Us",
+        "callUs": "Call us",
+        "resetDataAlert": {
+          "title": "Reset Data",
+          "body": "All cvs and information well be deleted",
+          "cancel": "Cancel",
+          "ok": "Ok"
+        }
+      }
+    },
+    "cvDetails": {
+      "notification": {
+        "title": "Your cv Waiting",
+        "body": "Complete your CV"
+      },
+      "title": "Your cv details",
+      "back": "Cv Details",
+      "form": {
+        "title": {
+          "label": "Cv Title",
+          "placeHolder": "Name your cv"
+        },
+        "owner": {
+          "label": "Cv Owner Name"
+        },
+        "cvLanguage": {
+          "label": "Cv Language"
+        }
+      },
+      "bottomButton": "Personal Details",
+      "error": "Please complete all require fields"
+    },
+    "personalDetails": {
+      "title": "Add your personal details",
+      "back": "Personal Details",
+      "form": {
+        "fullName": {
+          "label": "Full name",
+          "placeHolder": "set your name in the cv"
+        },
+        "phone": {
+          "label": "Phone number",
+          "placeHolder": "example: +962789665181"
+        },
+        "email": {
+          "label": "Email",
+          "placeHolder": "example: plus.softjo@gmail.com"
+        },
+        "jobTitle": {
+          "label": "Job Title",
+          "placeHolder": "The job title, example: Accounting"
+        },
+        "country": {
+          "label": "Country"
+        },
+        "city": {
+          "label": "city"
+        },
+        "bio": {
+          "label": "Bio",
+          "placeHolder": "type about your self."
+        }
+      },
+      "bottomButton": "Educations",
+      "error": "Please complete all require fields"
+    },
+    "educations": {
+      "title": "Create list with your degrees",
+      "back": "Education",
+      "form": {
+        "title": {
+          "label": "Degree title",
+          "placeHolder": "your degree title"
+        },
+        "place": {
+          "label": "Colleague",
+          "placeHolder": "Where you study"
+        },
+        "start": {
+          "label": "Start date",
+          "placeHolder": "example: 2020/09"
+        },
+        "end": {
+          "label": "End date",
+          "placeHolder": "2021/09"
+        }
+      },
+      "bottomButton": "Works Experiences",
+      "remove": "Remove",
+      "error": "Please complete all require fields",
+      "list": "Educations List"
+    },
+    "works": {
+      "title": "Create list with your work experience",
+      "back": "Work Experiences",
+      "form": {
+        "title": {
+          "label": "Job title",
+          "placeHolder": "your job title"
+        },
+        "place": {
+          "label": "Company",
+          "placeHolder": "Name of the company"
+        },
+        "start": {
+          "label": "Start date",
+          "placeHolder": "example: 2020/09"
+        },
+        "end": {
+          "label": "End date",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Description",
+          "placeHolder": "You can tell us about your job, you can keep empty"
+        }
+      },
+      "bottomButton": "Skills",
+      "remove": "Remove",
+      "error": "Please complete all require fields",
+      "list": "Work Experiences List"
+    },
+    "skills": {
+      "title": "Create list with your skills",
+      "back": "Skills",
+      "form": {
+        "title": {
+          "label": "Skill"
+        },
+
+        "description": {
+          "label": "Description"
+        }
+      },
+      "bottomButton": "Courses",
+      "remove": "Remove",
+      "error": "Please complete all require fields",
+      "list": "Skills List"
+    },
+    "courses": {
+      "title": "Create list with your courses",
+      "back": "Courses",
+      "form": {
+        "title": {
+          "label": "Course title",
+          "placeHolder": "your course title"
+        },
+        "place": {
+          "label": "Company",
+          "placeHolder": "Name of the company or place you take the course"
+        },
+        "start": {
+          "label": "Start date",
+          "placeHolder": "example: 2020/09"
+        },
+        "end": {
+          "label": "End date",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Description",
+          "placeHolder": "type about course"
+        }
+      },
+      "bottomButton": "Preview",
+      "remove": "Remove",
+      "error": "Please complete all require fields",
+      "list": "Courses List"
+    },
+    "result": {
+      "title": "Information",
+      "back": "none",
+      "create": "Create CV",
+      "preview": "Preview",
+      "save": "Save",
+      "share": "Share",
+      "cv": {
+        "bioHolder": "Profile",
+        "skillsHolder": "Skills",
+        "experienceHolder": "Experience",
+        "educationHolder": "Education",
+        "coursesHolder": "Courses"
+      }
+    },
+    "navigationMenu": {
+      "navigation": "Navigation",
+      "home": "Home",
+      "cvDetails": "Cv Details",
+      "personalDetails": "Personal Details",
+      "educations": "Educations",
+      "works": "Works Experiences",
+      "skills": "Skills",
+      "courses": "Courses",
+      "preview": "Preview"
+    },
+    "callUs": {
+      "callUs": "Call us",
+      "title": "Call us",
+      "sendDirectMessageToUs": "Send direct message to us",
+      "name": "Name",
+      "phone": "Phone number",
+      "message": "Message",
+      "send": "Send",
+      "errorPleaseTryAgainLater": "Error, Please try again later.",
+      "sendMessageSuccess": "Send message success",
+      "weHaveYourMessage": "We have your message, we well contact you faster as we can"
+    },
+    "formBuilder": {
+      "require": "This field required"
+    },
+    "language": {
+      "title": "Select Language",
+      "back": "Languages"
+    }
   }
 }

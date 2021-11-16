@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "117592222563",
+    "project_id": "mistercv-b249b",
+    "storage_bucket": "mistercv-b249b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117592222563:android:0706a2521e1ab05cebc156",
+        "android_client_info": {
+          "package_name": "com.mistercv.plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117592222563-u0pa6onm40au2mqdt7bk5j62oi5bt8v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDudmke6wwPrxihwag9rBJFHSy2fkAmIXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117592222563-u0pa6onm40au2mqdt7bk5j62oi5bt8v8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "117592222563-l3lnns02g98bed3bnmrendl15gjfrvlv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mistercv.plus",
+                "app_store_id": "1552043813"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

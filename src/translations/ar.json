@@ -1,6 +1,233 @@
 {
   "translation": {
     "dir": "rtl",
-    "helloWorld": "مرحبا بالعالم"
+    "home": {
+      "youDontHaveAndCv": "لا تملك اي سيرة ذاتية",
+      "addNewCv": "قم بالانشاء من خلال +",
+      "cvCardButtons": {
+        "share": "مشاركة",
+        "remove": "حذف",
+        "edit": "تعديل",
+        "preview": "معاينة"
+      },
+      "sidePanel": {
+        "settings": "الاعدادات",
+        "notifications": "الاشعارات",
+        "language": "اللغة",
+        "resetData": "حذف البيانات",
+        "aboutUs": "من نحن",
+        "callUs": "اتصل بنا",
+        "resetDataAlert": {
+          "title": "حذف البيانات",
+          "body": "جميع البيانات سوف تحذف",
+          "cancel": "الغاء",
+          "ok": "موافق"
+        }
+      }
+    },
+    "cvDetails": {
+      "notification": {
+        "title": "سيرتك الذاتيه في انتظارك",
+        "body": "اكمل ادخال معلوماتك وقم بانشاء سيرتك الذاتية"
+      },
+      "title": "معلومات السيرة الذاتية الخاصة بك",
+      "back": "السيرة الذاتية",
+      "form": {
+        "title": {
+          "label": "العنوان",
+          "placeHolder": "قم بتسمية سيرتك الذاتية"
+        },
+        "owner": {
+          "label": "اسم مستخدم السيرة الذاتية"
+        },
+        "cvLanguage": {
+          "label": "لغة السيرة الذاتية"
+        }
+      },
+      "bottomButton": "المعلومات الشخصية",
+      "error": "الرجاء اكمال جميع الحقول المطلوبة"
+    },
+    "personalDetails": {
+      "title": "قم باضافة معلوماتك الشخصية",
+      "back": "المعلومات الشخصية",
+      "form": {
+        "fullName": {
+          "label": "الأسم بالكامل",
+          "placeHolder": "قم بكتابة الأسم الثلاثي"
+        },
+        "phone": {
+          "label": "رقم الهاتف",
+          "placeHolder": "مثال: +962789665181"
+        },
+        "email": {
+          "label": "البريد الالكتروني",
+          "placeHolder": "مثال: plus.softjo@gmail.com"
+        },
+        "jobTitle": {
+          "label": "عنوان الوظيف",
+          "placeHolder": "عنوان الوظيفه الخاصة بك, مثال: محاسب"
+        },
+        "country": {
+          "label": "الدولة"
+        },
+        "city": {
+          "label": "المدينة"
+        },
+        "bio": {
+          "label": "عن نفسك",
+          "placeHolder": "قم بكتابة معلومات عن نفسك"
+        }
+      },
+      "bottomButton": "التعليم",
+      "error": "الرجاء اكمال جميع الحقول المطلوبة"
+    },
+    "educations": {
+      "title": "قم بانشاء لائحة بشهاداتك",
+      "back": "التعليم",
+      "form": {
+        "title": {
+          "label": "الشهادة",
+          "placeHolder": "ما هي الشهادة التي حصلت عليها "
+        },
+        "place": {
+          "label": "الجامعة",
+          "placeHolder": "اين درست"
+        },
+        "start": {
+          "label": "تاريخ البدأ",
+          "placeHolder": "مثال: 2020/09"
+        },
+        "end": {
+          "label": "تاريخ الأنتهاء",
+          "placeHolder": "مثال :2021/09"
+        }
+      },
+      "bottomButton": "خبرات العمل",
+      "remove": "حذف",
+      "error": "الرجاء اكمال جميع الحقول المطلوبة",
+      "list": "لائحة الشهادات"
+    },
+    "works": {
+      "title": "قم باضافة خبرات العمل",
+      "back": "خبرات العمل",
+      "form": {
+        "title": {
+          "label": "اسم الوظيفة",
+          "placeHolder": "قم بادخال المسمى الوظيفي الخاص بكل"
+        },
+        "place": {
+          "label": "الشركة",
+          "placeHolder": "اسم الشركة او المؤسسة "
+        },
+        "start": {
+          "label": "تاريخ البدأ",
+          "placeHolder": "مثال: 2020/09"
+        },
+        "end": {
+          "label": "تاريخ الانتهاء",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "الوصف",
+          "placeHolder": "قم باضافة وصف للوظيفة الخاصة بك, يمكنك تركه فارغ"
+        }
+      },
+      "bottomButton": "المهارات",
+      "remove": "حذف",
+      "error": "الرجاء اكمال جميع الحقول المطلوبة",
+      "list": "لائحة خبرات العمل "
+    },
+    "skills": {
+      "title": "قم باضافة لائحة بالمهارات ",
+      "back": "المهارات",
+      "form": {
+        "title": {
+          "label": "المهارة"
+        },
+
+        "description": {
+          "label": "الوصف"
+        }
+      },
+      "bottomButton": "الدورات",
+      "remove": "حذف",
+      "error": "الرجاء اكمال جميع الحقول المطلوبة",
+      "list": "لائحة المهارات"
+    },
+    "courses": {
+      "title": "قم باضافة لائحة بالدورات التي تمتلكها",
+      "back": "الدورات",
+      "form": {
+        "title": {
+          "label": "اسم الدورة",
+          "placeHolder": "اسم الدورة "
+        },
+        "place": {
+          "label": "الشركة",
+          "placeHolder": "قم باضافة اسم الشركة او المكان اللذي قمت باخذ الدورة به"
+        },
+        "start": {
+          "label": "تاريخ البدأ",
+          "placeHolder": "مثال: 2020/09"
+        },
+        "end": {
+          "label": "تاريخ الانتهاء",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "الوصف",
+          "placeHolder": "قم باضافة وصف للدورة, يمكنك تركه فارغ"
+        }
+      },
+      "bottomButton": "معاينة",
+      "remove": "حذف",
+      "error": "الرجاء اكمال جميع الحقول",
+      "list": "لائحة الدورات"
+    },
+    "result": {
+      "title": "معلومات",
+      "back": "none",
+      "create": "انشاء السيرة الذاتية",
+      "preview": "معاينة",
+      "save": "حفظ",
+      "share": "مشاركة",
+      "cv": {
+        "bioHolder": "معلومات",
+        "skillsHolder": "المهارات",
+        "experienceHolder": "الخبرات",
+        "educationHolder": "التعليم",
+        "coursesHolder": "الدورات"
+      }
+    },
+    "navigationMenu": {
+      "navigation": "انتقال",
+      "home": "الرئيسية",
+      "cvDetails": "معلومات السيرة الذاتية",
+      "personalDetails": "المعلومات الشخصية",
+      "educations": "التعليم",
+      "works": "خبرات العمل",
+      "skills": "المهارات",
+      "courses": "الدورات",
+      "preview": "معاينة"
+    },
+    "callUs": {
+      "callUs": "اتصل بنا",
+      "title": "اتصل بنا",
+      "sendDirectMessageToUs": "ارسل رسالة مباشرة لنا",
+      "name": "الأسم",
+      "phone": "رقم الهاتف",
+      "message": "الرسالة",
+      "send": "ارسال",
+      "errorPleaseTryAgainLater": "يوجد خطا الرجاء الأرسال مرة اخرى",
+      "sendMessageSuccess": "تم ارسال الرسالة بنجاح",
+      "weHaveYourMessage": "لقد استلمنا رسالتك سوف نقوم بالتواصل معك في اقرب وقت"
+    },
+    "formBuilder": {
+      "require": "هذا الحقل مطلوب"
+    },
+    "language": {
+      "title": "أختر لغة",
+      "back": "اللغات"
+    }
   }
 }

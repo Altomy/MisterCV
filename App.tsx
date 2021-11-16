@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { Box, Button, NativeBaseProvider, Text } from "native-base";
+import "react-native-get-random-values";
 import theme from "utils/theme";
 import * as Font from "expo-font";
 import fonts from "utils/fonts";
@@ -55,13 +56,6 @@ export default function App() {
     }
 
     setLoaded(true); // Change loaded boolean
-  };
-
-  let changeLanguage = async (language: "en" | "ar") => {
-    await AsyncStorage.setItem("language", language);
-    i18n.changeLanguage(language);
-    I18nManager.forceRTL(t("dir") == "rtl" ? true : false);
-    await Updates.reloadAsync();
   };
 
   // ==== React.useEffect ==== //

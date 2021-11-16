@@ -1,6 +1,6 @@
 import { Platform } from "react-native";
 
-let isDev = true;
+export const isDev = true;
 let dev = {
   server: "http://192.168.1.108:8082",
   ads: {
@@ -9,7 +9,7 @@ let dev = {
 };
 
 let release = {
-  server: "http://plus-softjo.info:8082",
+  server: "http://plus-softjo.info:3000",
   ads: {
     title: Platform.select({ ios: "", android: "" }),
   },
