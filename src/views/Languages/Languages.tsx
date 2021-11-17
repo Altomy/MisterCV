@@ -32,7 +32,7 @@ let Languages: React.FC<propsTypes> = (props) => {
     { title: "English", key: "en" },
     { title: "Español", key: "es" },
     { title: "français", key: "fr" },
-    { title: "français", key: "fr" },
+    { title: "Português", key: "pt" },
     { title: "العربية", key: "ar" },
     { title: "Deutsch", key: "de" },
     { title: "Nederlands", key: "nl" },

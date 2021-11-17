@@ -150,6 +150,7 @@ let CvDetails: React.FC<propsTypes> = (props) => {
                     { label: "Español", value: "es" },
                     { label: "français", value: "fr" },
                     { label: "Deutsch", value: "de" },
+                    { label: "Português", value: "pt" },
                     { label: "العربية", value: "ar" },
                     { label: "Nederlands", value: "nl" },
                     { label: "Türkçe", value: "fr" },
