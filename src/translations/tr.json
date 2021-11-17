@@ -1,0 +1,233 @@
+{
+  "translation": {
+    "dir": "ltr",
+    "home": {
+      "youDontHaveAndCv": "Cv'niz yok.",
+      "addNewCv": "Yeni CV ekle +",
+      "cvCardButtons": {
+        "share": "Paylaş",
+        "remove": "Kaldırmak",
+        "edit": "Düzenlemek",
+        "preview": "Önizleme"
+      },
+      "sidePanel": {
+        "settings": "Ayarlar",
+        "notifications": "Bildirim",
+        "language": "Diller",
+        "resetData": "Verileri Sıfırla",
+        "aboutUs": "Hakkımızda",
+        "callUs": "Bizi arayın",
+        "resetDataAlert": {
+          "title": "Verileri Sıfırla",
+          "body": "Tüm özgeçmişler ve bilgiler silinecek",
+          "cancel": "İptal",
+          "ok": "Onaylamak"
+        }
+      }
+    },
+    "cvDetails": {
+      "notification": {
+        "title": "Özgeçmişiniz bekliyor 🤩",
+        "body": "Bilgilerinizi tamamlayın ve özgeçmişinizi alın 💯"
+      },
+      "title": "CV bilgilerinizi doldurun",
+      "back": "Özgeçmiş Bilgileri",
+      "form": {
+        "title": {
+          "label": "Özgeçmiş Adı",
+          "placeHolder": "Özgeçmişiniz için ad ayarlama"
+        },
+        "owner": {
+          "label": "Özgeçmiş Sahibi Adı"
+        },
+        "cvLanguage": {
+          "label": "Özgeçmiş Dili"
+        }
+      },
+      "bottomButton": "Kişisel Bilgiler",
+      "error": "Lütfen gerekli tüm alanları doldurun"
+    },
+    "personalDetails": {
+      "title": "Kişisel bilgilerinizi doldurun",
+      "back": "Kişisel Bilgiler",
+      "form": {
+        "fullName": {
+          "label": "Tam ad",
+          "placeHolder": "Tam ad"
+        },
+        "phone": {
+          "label": "Telefon numarası",
+          "placeHolder": "örnek: +962789665181"
+        },
+        "email": {
+          "label": "Email",
+          "placeHolder": "örnek: plus.softjo@gmail.com"
+        },
+        "jobTitle": {
+          "label": "İş Unvanı",
+          "placeHolder": "İş Unvanı, örnek: Muhasebe"
+        },
+        "country": {
+          "label": "Ülke"
+        },
+        "city": {
+          "label": "şehir"
+        },
+        "bio": {
+          "label": "Nesnel",
+          "placeHolder": "Kendiniz hakkında bilgi yazın "
+        }
+      },
+      "bottomButton": "Eğitim",
+      "error": "Lütfen gerekli tüm alanları doldurun"
+    },
+    "educations": {
+      "title": "Sertifikalarınızı yazın",
+      "back": "Eğitim",
+      "form": {
+        "title": {
+          "label": "Sertifika",
+          "placeHolder": "Sertifika"
+        },
+        "place": {
+          "label": "Üniversite",
+          "placeHolder": "Üniversite"
+        },
+        "start": {
+          "label": "Başlangıç tarihi",
+          "placeHolder": "örnek: 2020/09"
+        },
+        "end": {
+          "label": "Bitiş tarihi",
+          "placeHolder": "örnek: 2020/09"
+        }
+      },
+      "bottomButton": "İş Deneyimleri",
+      "remove": "Kaldırmak",
+      "error": "Lütfen gerekli tüm alanları doldurun",
+      "list": "Eğitim"
+    },
+    "works": {
+      "title": "Fill out your work experience",
+      "back": "İş Deneyimleri",
+      "form": {
+        "title": {
+          "label": "İşin adı",
+          "placeHolder": "İşin adı."
+        },
+        "place": {
+          "label": "Şirket",
+          "placeHolder": "Şirket"
+        },
+        "start": {
+          "label": "Başlangıç tarihi",
+          "placeHolder": "örnek: 2020/09"
+        },
+        "end": {
+          "label": "Bitiş tarihi",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Tarif",
+          "placeHolder": "Bize işinden bahsedebilirsin, boş tutabilirsin."
+        }
+      },
+      "bottomButton": "Beceri",
+      "remove": "Kaldırmak",
+      "error": "Lütfen gerekli tüm alanları doldurun",
+      "list": "İş Deneyimleri"
+    },
+    "skills": {
+      "title": "Becerilerinizi doldurun",
+      "back": "Beceri",
+      "form": {
+        "title": {
+          "label": "Beceri"
+        },
+
+        "description": {
+          "label": "Tarif"
+        }
+      },
+      "bottomButton": "Kurs -ları",
+      "remove": "Kaldırmak",
+      "error": "Lütfen gerekli tüm alanları doldurun",
+      "list": "Beceri"
+    },
+    "courses": {
+      "title": "Kurslarınızı doldurun",
+      "back": "Kurs -ları",
+      "form": {
+        "title": {
+          "label": "Kurs başlığı",
+          "placeHolder": "Kurs başlığı"
+        },
+        "place": {
+          "label": "Şirket",
+          "placeHolder": "Kursa katıldığınızda şirketin veya yerin adı"
+        },
+        "start": {
+          "label": "Başlangıç tarihi",
+          "placeHolder": "örnek: 2020/09"
+        },
+        "end": {
+          "label": "Bitiş tarihi",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Tarif",
+          "placeHolder": "Tarif"
+        }
+      },
+      "bottomButton": "Önizleme",
+      "remove": "Kaldırmak",
+      "error": "Lütfen gerekli tüm alanları doldurun",
+      "list": "Kurs -ları"
+    },
+    "result": {
+      "title": "Bilgi",
+      "back": "none",
+      "create": "CV Oluştur",
+      "preview": "Önizleme",
+      "save": "Kurtarmak",
+      "share": "Paylaş",
+      "cv": {
+        "bioHolder": "Nesnel",
+        "skillsHolder": "Beceri",
+        "experienceHolder": "Deneyim",
+        "educationHolder": "Eğitim",
+        "coursesHolder": "Kurs -ları"
+      }
+    },
+    "navigationMenu": {
+      "navigation": "Gezinti",
+      "home": "Ev",
+      "cvDetails": "Özgeçmiş Ayrıntıları",
+      "personalDetails": "Kişisel Bilgiler",
+      "educations": "Eğitim",
+      "works": "İş Deneyimleri",
+      "skills": "Beceri",
+      "courses": "Kurs -ları",
+      "preview": "Önizleme"
+    },
+    "callUs": {
+      "callUs": "Bizi arayın",
+      "title": "Bizi arayın",
+      "sendDirectMessageToUs": "Bize doğrudan mesaj gönderin",
+      "name": "Ad",
+      "phone": "Telefon numarası",
+      "message": "İleti",
+      "send": "Gönder",
+      "errorPleaseTryAgainLater": "Hata, Lütfen daha sonra yeniden deneyin.",
+      "sendMessageSuccess": "İleti başarısı gönder",
+      "weHaveYourMessage": "Mesajınız var, sizinle elimizden gelen en hızlı şekilde iletişime geçiyoruz"
+    },
+    "formBuilder": {
+      "require": "Bu alan gerekli"
+    },
+    "language": {
+      "title": "Dil seçin",
+      "back": "Diller"
+    }
+  }
+}

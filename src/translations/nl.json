@@ -1,0 +1,233 @@
+{
+  "translation": {
+    "dir": "ltr",
+    "home": {
+      "youDontHaveAndCv": "Je hebt geen CV",
+      "addNewCv": "Voeg nieuw CV toe van +",
+      "cvCardButtons": {
+        "share": "Delen",
+        "remove": "Verwijderen",
+        "edit": "Bewerken",
+        "preview": "Voorbeeld"
+      },
+      "sidePanel": {
+        "settings": "Instellingen",
+        "notifications": "Meldingen",
+        "language": "Talen",
+        "resetData": "Gegevens opnieuw instellen",
+        "aboutUs": "Informatie",
+        "callUs": "Bel ons",
+        "resetDataAlert": {
+          "title": "Gegevens opnieuw instellen",
+          "body": "Alle cv's en informatie worden verwijderd",
+          "cancel": "Annuleren",
+          "ok": "Bevestigen"
+        }
+      }
+    },
+    "cvDetails": {
+      "notification": {
+        "title": "Uw CV wacht op u 🤩",
+        "body": "Vul uw gegevens in en ontvang uw cv 💯"
+      },
+      "title": "Vul uw CV gegevens in",
+      "back": "Cv Informatie",
+      "form": {
+        "title": {
+          "label": "Cv Naam",
+          "placeHolder": "Stel de naam in voor je cv"
+        },
+        "owner": {
+          "label": "Cv Eigenaar Naam"
+        },
+        "cvLanguage": {
+          "label": "Cv Taal"
+        }
+      },
+      "bottomButton": "Persoonlijke gegevens",
+      "error": "Gelieve alle verplichte velden in te vullen"
+    },
+    "personalDetails": {
+      "title": "Vul uw persoonlijke gegevens in",
+      "back": "Persoonlijke gegevens",
+      "form": {
+        "fullName": {
+          "label": "Volledige naam",
+          "placeHolder": "stel je naam in het cv in"
+        },
+        "phone": {
+          "label": "Telefoonnummer",
+          "placeHolder": "voorbeeld: +962789665181"
+        },
+        "email": {
+          "label": "Email",
+          "placeHolder": "voorbeeld: plus.softjo@gmail.com"
+        },
+        "jobTitle": {
+          "label": "Functie",
+          "placeHolder": "Functie, voorbeeld: Boekhouding"
+        },
+        "country": {
+          "label": "Land"
+        },
+        "city": {
+          "label": "stad"
+        },
+        "bio": {
+          "label": "Objectief",
+          "placeHolder": "Schrijf informatie over jezelf "
+        }
+      },
+      "bottomButton": "Opleidingen",
+      "error": "Gelieve alle verplichte velden in te vullen"
+    },
+    "educations": {
+      "title": "Schrijf uw certificaten",
+      "back": "Opleidingen",
+      "form": {
+        "title": {
+          "label": "Certificaten",
+          "placeHolder": "Certificaten"
+        },
+        "place": {
+          "label": "Universiteit",
+          "placeHolder": "Universiteit"
+        },
+        "start": {
+          "label": "Startdatum",
+          "placeHolder": "voorbeeld: 2020/09"
+        },
+        "end": {
+          "label": "Einddatum",
+          "placeHolder": "voorbeeld: 2020/09"
+        }
+      },
+      "bottomButton": "Werkervaringen",
+      "remove": "Verwijderen",
+      "error": "Gelieve alle verplichte velden in te vullen",
+      "list": "Opleidingen"
+    },
+    "works": {
+      "title": "Vul je werkervaring in",
+      "back": "Werkervaringen",
+      "form": {
+        "title": {
+          "label": "De naam van de baan.",
+          "placeHolder": "De naam van de baan."
+        },
+        "place": {
+          "label": "Bedrijf",
+          "placeHolder": "Bedrijf"
+        },
+        "start": {
+          "label": "Startdatum",
+          "placeHolder": "voorbeeld: 2020/09"
+        },
+        "end": {
+          "label": "Einddatum",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Beschrijving",
+          "placeHolder": "Je kunt ons vertellen over je baan, je kunt leeg blijven"
+        }
+      },
+      "bottomButton": "Vaardigheden",
+      "remove": "Verwijderen",
+      "error": "Gelieve alle verplichte velden in te vullen",
+      "list": "Werkervaringen"
+    },
+    "skills": {
+      "title": "Fill out your skills",
+      "back": "Vaardigheden",
+      "form": {
+        "title": {
+          "label": "Vaardigheden"
+        },
+
+        "description": {
+          "label": "Beschrijving"
+        }
+      },
+      "bottomButton": "Cursussen",
+      "remove": "Verwijderen",
+      "error": "Gelieve alle verplichte velden in te vullen",
+      "list": "Vaardigheden"
+    },
+    "courses": {
+      "title": "Vul je cursussen in",
+      "back": "Cursussen",
+      "form": {
+        "title": {
+          "label": "Titel van de cursus",
+          "placeHolder": "Titel van de cursus"
+        },
+        "place": {
+          "label": "Bedrijf",
+          "placeHolder": "Naam van het bedrijf of de plaats waar u de cursus volgt"
+        },
+        "start": {
+          "label": "Startdatum",
+          "placeHolder": "voorbeeld: 2020/09"
+        },
+        "end": {
+          "label": "Einddatum",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Beschrijving",
+          "placeHolder": "typ over cursus"
+        }
+      },
+      "bottomButton": "Voorbeeld",
+      "remove": "Verwijderen",
+      "error": "Gelieve alle verplichte velden in te vullen",
+      "list": "Cursussen"
+    },
+    "result": {
+      "title": "Informatie",
+      "back": "none",
+      "create": "Cv maken",
+      "preview": "Voorbeeld",
+      "save": "Redden",
+      "share": "Delen",
+      "cv": {
+        "bioHolder": "Objectief",
+        "skillsHolder": "Vaardigheden",
+        "experienceHolder": "Ervaring",
+        "educationHolder": "Onderwijs",
+        "coursesHolder": "Cursussen"
+      }
+    },
+    "navigationMenu": {
+      "navigation": "Navigatie",
+      "home": "Thuis",
+      "cvDetails": "Cv Informatie",
+      "personalDetails": "Persoonlijke gegevens",
+      "educations": "Opleidingen",
+      "works": "Werkervaringen",
+      "skills": "Vaardigheden",
+      "courses": "Cursussen",
+      "preview": "Voorbeeld"
+    },
+    "callUs": {
+      "callUs": "Bel ons",
+      "title": "Bel ons",
+      "sendDirectMessageToUs": "Stuur ons een direct bericht",
+      "name": "Naam",
+      "phone": "Telefoonnummer",
+      "message": "Bericht",
+      "send": "Verzenden",
+      "errorPleaseTryAgainLater": "Fout, probeer het later opnieuw.",
+      "sendMessageSuccess": "Bericht verzenden geslaagd",
+      "weHaveYourMessage": "We hebben uw boodschap, we nemen zo snel mogelijk contact met u op"
+    },
+    "formBuilder": {
+      "require": "Dit veld verplicht"
+    },
+    "language": {
+      "title": "Taal selecteren",
+      "back": "Talen"
+    }
+  }
+}

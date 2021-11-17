@@ -30,7 +30,14 @@ let Languages: React.FC<propsTypes> = (props) => {
 
   let languagesList = [
     { title: "English", key: "en" },
+    { title: "Español", key: "es" },
+    { title: "français", key: "fr" },
+    { title: "français", key: "fr" },
     { title: "العربية", key: "ar" },
+    { title: "Deutsch", key: "de" },
+    { title: "Nederlands", key: "nl" },
+    { title: "Türkçe", key: "tr" },
+    { title: "हिंदी", key: "hi" },
   ];
 
   // ==== RETURN METHOD ==== //

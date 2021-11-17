@@ -1,0 +1,233 @@
+{
+  "translation": {
+    "dir": "ltr",
+    "home": {
+      "youDontHaveAndCv": "Sie haben keinen Lebenslauf",
+      "addNewCv": "Neuen Lebenslauf hinzufügen von +",
+      "cvCardButtons": {
+        "share": "Freigeben",
+        "remove": "Entfernen",
+        "edit": "Redigieren",
+        "preview": "Vorschau"
+      },
+      "sidePanel": {
+        "settings": "Einstellungen",
+        "notifications": "Benachrichtigungen",
+        "language": "Sprachen",
+        "resetData": "Daten zurücksetzen",
+        "aboutUs": "Über uns",
+        "callUs": "Rufen Sie uns an",
+        "resetDataAlert": {
+          "title": "Daten zurücksetzen",
+          "body": "Alle Lebensläufe und Informationen werden gelöscht",
+          "cancel": "Abbrechen",
+          "ok": "Bestätigen"
+        }
+      }
+    },
+    "cvDetails": {
+      "notification": {
+        "title": "Ihr Lebenslauf wartet 🤩",
+        "body": "Vervollständigen Sie Ihre Informationen und erhalten Sie Ihren Lebenslauf 💯"
+      },
+      "title": "Füllen Sie Ihre Lebenslaufinformationen aus",
+      "back": "Cv Informationen",
+      "form": {
+        "title": {
+          "label": "Cv Name",
+          "placeHolder": "Name für Lebenslauf festlegen"
+        },
+        "owner": {
+          "label": "Name des CV-Besitzers"
+        },
+        "cvLanguage": {
+          "label": "CV Sprache"
+        }
+      },
+      "bottomButton": "Zur Person",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus"
+    },
+    "personalDetails": {
+      "title": "Füllen Sie Ihre persönlichen Daten aus",
+      "back": "Zur Person",
+      "form": {
+        "fullName": {
+          "label": "Vollständiger Name",
+          "placeHolder": "Legen Sie Ihren Namen im Lebenslauf fest"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeHolder": "Beispiel: +962789665181"
+        },
+        "email": {
+          "label": "Email",
+          "placeHolder": "Beispiel: plus.softjo@gmail.com"
+        },
+        "jobTitle": {
+          "label": "Berufsbezeichnung",
+          "placeHolder": "Berufsbezeichnung, Beispiel: Buchführung"
+        },
+        "country": {
+          "label": "Land"
+        },
+        "city": {
+          "label": "Stadt"
+        },
+        "bio": {
+          "label": "Objektiv",
+          "placeHolder": "Schreiben Sie Informationen über sich selbst "
+        }
+      },
+      "bottomButton": "Ausbildungen",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus"
+    },
+    "educations": {
+      "title": "Schreiben Sie Ihre Zertifikate",
+      "back": "Ausbildungen",
+      "form": {
+        "title": {
+          "label": "Atteste",
+          "placeHolder": "Atteste"
+        },
+        "place": {
+          "label": "Universität",
+          "placeHolder": "Universität"
+        },
+        "start": {
+          "label": "Startdatum",
+          "placeHolder": "Beispiel: 2020/09"
+        },
+        "end": {
+          "label": "Enddatum",
+          "placeHolder": "Beispiel: 2020/09"
+        }
+      },
+      "bottomButton": "Werke Erfahrungen",
+      "remove": "Entfernen",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus",
+      "list": "Ausbildungen"
+    },
+    "works": {
+      "title": "Füllen Sie Ihre Berufserfahrung aus",
+      "back": "Berufserfahrung",
+      "form": {
+        "title": {
+          "label": "Der Name des Auftrags.",
+          "placeHolder": "Der Name des Auftrags."
+        },
+        "place": {
+          "label": "Firma",
+          "placeHolder": "Firma"
+        },
+        "start": {
+          "label": "Startdatum",
+          "placeHolder": "Beispiel: 2020/09"
+        },
+        "end": {
+          "label": "Enddatum",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Beschreibung",
+          "placeHolder": "Sie können uns von Ihrem Job erzählen, Sie können leer bleiben"
+        }
+      },
+      "bottomButton": "Fähigkeiten",
+      "remove": "Entfernen",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus",
+      "list": "Liste der Arbeitserfahrungen"
+    },
+    "skills": {
+      "title": "Füllen Sie Ihre Fähigkeiten aus",
+      "back": "Fähigkeiten",
+      "form": {
+        "title": {
+          "label": "Fertigkeit"
+        },
+
+        "description": {
+          "label": "Beschreibung"
+        }
+      },
+      "bottomButton": "Kurse",
+      "remove": "Entfernen",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus",
+      "list": "Fähigkeiten"
+    },
+    "courses": {
+      "title": "Füllen Sie Ihre Kurse aus",
+      "back": "Kurse",
+      "form": {
+        "title": {
+          "label": "Titel des Kurses",
+          "placeHolder": "Titel des Kurses"
+        },
+        "place": {
+          "label": "Firma",
+          "placeHolder": "Name des Unternehmens oder Ortes, an dem Sie den Kurs belegen"
+        },
+        "start": {
+          "label": "Startdatum",
+          "placeHolder": "Beispiel: 2020/09"
+        },
+        "end": {
+          "label": "Enddatum",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Beschreibung",
+          "placeHolder": "Geben Sie einen Kurs ein"
+        }
+      },
+      "bottomButton": "Vorschau",
+      "remove": "Entfernen",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus",
+      "list": "Kurse"
+    },
+    "result": {
+      "title": "Information",
+      "back": "none",
+      "create": "Lebenslauf erstellen",
+      "preview": "Vorschau",
+      "save": "Retten",
+      "share": "Freigeben",
+      "cv": {
+        "bioHolder": "Objektiv",
+        "skillsHolder": "Fähigkeiten",
+        "experienceHolder": "Erfahrung",
+        "educationHolder": "Bildung",
+        "coursesHolder": "Kurse"
+      }
+    },
+    "navigationMenu": {
+      "navigation": "Navigation",
+      "home": "Heim",
+      "cvDetails": "Cv Details",
+      "personalDetails": "Zur Person",
+      "educations": "Ausbildungen",
+      "works": "Werke Erfahrungen",
+      "skills": "Fähigkeiten",
+      "courses": "Kurse",
+      "preview": "Vorschau"
+    },
+    "callUs": {
+      "callUs": "Rufen Sie uns an",
+      "title": "Rufen Sie uns an",
+      "sendDirectMessageToUs": "Senden Sie uns eine direkte Nachricht",
+      "name": "Name",
+      "phone": "Telefonnummer",
+      "message": "Nachricht",
+      "send": "Senden",
+      "errorPleaseTryAgainLater": "Fehler, Bitte versuchen Sie es später erneut.",
+      "sendMessageSuccess": "Nachricht erfolgreich senden",
+      "weHaveYourMessage": "Wir haben Ihre Nachricht, wir kontaktieren Sie schneller als möglich"
+    },
+    "formBuilder": {
+      "require": "Dieses Feld ist erforderlich"
+    },
+    "language": {
+      "title": "Sprache auswählen",
+      "back": "Sprachen"
+    }
+  }
+}

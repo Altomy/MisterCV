@@ -1,0 +1,233 @@
+{
+  "translation": {
+    "dir": "ltr",
+    "home": {
+      "youDontHaveAndCv": "Vous n’avez pas de CV",
+      "addNewCv": "Ajouter un nouveau CV à partir de +",
+      "cvCardButtons": {
+        "share": "Partager",
+        "remove": "Enlever",
+        "edit": "Éditer",
+        "preview": "Aperçu"
+      },
+      "sidePanel": {
+        "settings": "Paramètres",
+        "notifications": "Notifications",
+        "language": "Traduction",
+        "resetData": "Réinitialiser les données",
+        "aboutUs": "Qui sommes-nous",
+        "callUs": "Appelez-nous",
+        "resetDataAlert": {
+          "title": "Réinitialiser les données",
+          "body": "Tous les CV et informations seront supprimés",
+          "cancel": "Annuler",
+          "ok": "Confirmer"
+        }
+      }
+    },
+    "cvDetails": {
+      "notification": {
+        "title": "Votre CV est en attente 🤩",
+        "body": "Complétez vos informations, et obtenez votre CV 💯"
+      },
+      "title": "Remplissez les informations de votre CV",
+      "back": "Informations cv",
+      "form": {
+        "title": {
+          "label": "Nom du CV",
+          "placeHolder": "Définir le nom de votre CV"
+        },
+        "owner": {
+          "label": "Nom du propriétaire du CV"
+        },
+        "cvLanguage": {
+          "label": "Cv Langue"
+        }
+      },
+      "bottomButton": "Données personnelles",
+      "error": "Veuillez remplir tous les champs obligatoires"
+    },
+    "personalDetails": {
+      "title": "Remplissez vos informations personnelles",
+      "back": "Données personnelles",
+      "form": {
+        "fullName": {
+          "label": "Nom complet",
+          "placeHolder": "définissez votre nom dans le CV"
+        },
+        "phone": {
+          "label": "Numéro de téléphone",
+          "placeHolder": "example: +962789665181"
+        },
+        "email": {
+          "label": "Email",
+          "placeHolder": "example: plus.softjo@gmail.com"
+        },
+        "jobTitle": {
+          "label": "Titre du poste",
+          "placeHolder": "Titre du poste, example: Comptabilité"
+        },
+        "country": {
+          "label": "Pays"
+        },
+        "city": {
+          "label": "ville"
+        },
+        "bio": {
+          "label": "Objectif",
+          "placeHolder": "Écrivez des informations sur vous-même "
+        }
+      },
+      "bottomButton": "Éducations",
+      "error": "Veuillez remplir tous les champs obligatoires"
+    },
+    "educations": {
+      "title": "Rédigez vos certificats",
+      "back": "Éducations",
+      "form": {
+        "title": {
+          "label": "Certificats",
+          "placeHolder": "Certificats"
+        },
+        "place": {
+          "label": "Université",
+          "placeHolder": "Université"
+        },
+        "start": {
+          "label": "Date de début",
+          "placeHolder": "example: 2020/09"
+        },
+        "end": {
+          "label": "Date de fin",
+          "placeHolder": "example: 2020/09"
+        }
+      },
+      "bottomButton": "Expériences de travail",
+      "remove": "Enlever",
+      "error": "Veuillez remplir tous les champs obligatoires",
+      "list": "Éducations"
+    },
+    "works": {
+      "title": "Remplissez votre expérience de travail",
+      "back": "Expériences de travail",
+      "form": {
+        "title": {
+          "label": "Nom de la tâche.",
+          "placeHolder": "Nom de la tâche."
+        },
+        "place": {
+          "label": "Compagnie",
+          "placeHolder": "Compagnie"
+        },
+        "start": {
+          "label": "Date de début",
+          "placeHolder": "example: 2020/09"
+        },
+        "end": {
+          "label": "Date de fin",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Description",
+          "placeHolder": "Vous pouvez nous parler de votre travail, vous pouvez rester vide"
+        }
+      },
+      "bottomButton": "Compétences",
+      "remove": "Enlever",
+      "error": "Veuillez remplir tous les champs obligatoires",
+      "list": "Expériences de travail"
+    },
+    "skills": {
+      "title": "Complétez vos compétences",
+      "back": "Compétences",
+      "form": {
+        "title": {
+          "label": "Compétences"
+        },
+
+        "description": {
+          "label": "Description"
+        }
+      },
+      "bottomButton": "Cours",
+      "remove": "Enlever",
+      "error": "Veuillez remplir tous les champs obligatoires",
+      "list": "Expériences de travail"
+    },
+    "courses": {
+      "title": "Remplissez vos cours",
+      "back": "Cours",
+      "form": {
+        "title": {
+          "label": "Titre du cours",
+          "placeHolder": "Titre du cours"
+        },
+        "place": {
+          "label": "Compagnie",
+          "placeHolder": "Nom de l’entreprise ou du lieu où vous suivrez le cours"
+        },
+        "start": {
+          "label": "Date de début",
+          "placeHolder": "example: 2020/09"
+        },
+        "end": {
+          "label": "Date de fin",
+          "placeHolder": "2021/09"
+        },
+        "description": {
+          "label": "Description",
+          "placeHolder": "tapez à propos du cours"
+        }
+      },
+      "bottomButton": "Aperçu",
+      "remove": "Enlever",
+      "error": "Veuillez remplir tous les champs obligatoires",
+      "list": "Cours"
+    },
+    "result": {
+      "title": "Information",
+      "back": "none",
+      "create": "Créer un CV",
+      "preview": "Aperçu",
+      "save": "Sauvegarder",
+      "share": "Partager",
+      "cv": {
+        "bioHolder": "Objectif",
+        "skillsHolder": "Compétences",
+        "experienceHolder": "Expérience",
+        "educationHolder": "Éducation",
+        "coursesHolder": "Cours"
+      }
+    },
+    "navigationMenu": {
+      "navigation": "Navigation",
+      "home": "Domicile",
+      "cvDetails": "Détails du CV",
+      "personalDetails": "Données personnelles",
+      "educations": "Educations",
+      "works": "Éducations",
+      "skills": "Compétences",
+      "courses": "Cours",
+      "preview": "Aperçu"
+    },
+    "callUs": {
+      "callUs": "Appelez-nous",
+      "title": "Appelez-nous",
+      "sendDirectMessageToUs": "Envoyez-nous un message direct",
+      "name": "Nom",
+      "phone": "Numéro de téléphone",
+      "message": "Message",
+      "send": "Send",
+      "errorPleaseTryAgainLater": "Erreur, Veuillez réessayer plus tard.",
+      "sendMessageSuccess": "Envoyer un message avec succès",
+      "weHaveYourMessage": "Nous avons votre message, nous vous contactons aussi rapidement que possible"
+    },
+    "formBuilder": {
+      "require": "Ce champ obligatoire"
+    },
+    "language": {
+      "title": "Sélectionner une langue",
+      "back": "Traduction"
+    }
+  }
+}

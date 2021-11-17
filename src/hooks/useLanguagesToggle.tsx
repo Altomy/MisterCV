@@ -20,10 +20,14 @@ let useLanguagesToggle: useLanguagesToggleType = () => {
   let { i18n, t } = useTranslation();
 
   let changeLanguage: changeLanguage = async (language) => {
+    let oldDir = t("dir");
     await AsyncStorage.setItem("language", language);
     i18n.changeLanguage(language);
-    I18nManager.forceRTL(t("dir") == "rtl" ? true : false);
-    await Updates.reloadAsync();
+
+    if (oldDir !== t("dir")) {
+      I18nManager.forceRTL(t("dir") == "rtl" ? true : false);
+      await Updates.reloadAsync();
+    }
   };
 
   let toggleDir: toggleDir = (rtlValue, ltrValue) => {

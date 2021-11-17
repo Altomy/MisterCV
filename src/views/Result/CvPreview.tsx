@@ -11,7 +11,7 @@ import { Ionicons } from "@expo/vector-icons";
 import useAlerts from "hooks/useAlerts";
 import { useTranslation } from "react-i18next";
 import { useCv } from "context/CvProvider";
-import { ar, en } from "./cvLanguage";
+import { ar, de, en, es, fr, hi, nl, pt, tr } from "./cvLanguage";
 // ========== propsTypes ========== //
 export type propsTypes = {
   personalDetails: PersonalDetailsType;
@@ -63,6 +63,20 @@ let CvPreview: React.FC<propsTypes> = (props) => {
         return en;
       } else if (Cv.cv.cvLanguage === "ar") {
         return ar;
+      } else if (Cv.cv.cvLanguage === "es") {
+        return es;
+      } else if (Cv.cv.cvLanguage === "hi") {
+        return hi;
+      } else if (Cv.cv.cvLanguage === "de") {
+        return de;
+      } else if (Cv.cv.cvLanguage === "fr") {
+        return fr;
+      } else if (Cv.cv.cvLanguage === "nl") {
+        return nl;
+      } else if (Cv.cv.cvLanguage === "pt") {
+        return pt;
+      } else if (Cv.cv.cvLanguage === "tr") {
+        return tr;
       } else {
         return en;
       }

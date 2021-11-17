@@ -27,6 +27,13 @@ i18n
     resources: {
       en: require("translations/en"),
       ar: require("translations/ar"),
+      es: require("translations/es"),
+      hi: require("translations/hi"),
+      fr: require("translations/fr"),
+      de: require("translations/de"),
+      nl: require("translations/nl"),
+      pt: require("translations/pt"),
+      tr: require("translations/tr"),
     },
     lng: Localization.locale.slice(0, 2),
     fallbackLng: "en",

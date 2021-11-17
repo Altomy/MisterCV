@@ -13,29 +13,29 @@
       "sidePanel": {
         "settings": "Settings",
         "notifications": "Notifications",
-        "language": "Language",
+        "language": "Languages",
         "resetData": "Reset Data",
         "aboutUs": "About Us",
         "callUs": "Call us",
         "resetDataAlert": {
           "title": "Reset Data",
-          "body": "All cvs and information well be deleted",
+          "body": "All cvs and information will be deleted",
           "cancel": "Cancel",
-          "ok": "Ok"
+          "ok": "Confirm"
         }
       }
     },
     "cvDetails": {
       "notification": {
-        "title": "Your cv Waiting",
-        "body": "Complete your CV"
+        "title": "Your Cv is waiting 🤩",
+        "body": "Complete your information, And get your cv 💯"
       },
-      "title": "Your cv details",
-      "back": "Cv Details",
+      "title": "Fill out your CV information",
+      "back": "Cv Information",
       "form": {
         "title": {
-          "label": "Cv Title",
-          "placeHolder": "Name your cv"
+          "label": "Cv Name",
+          "placeHolder": "Set name for your cv"
         },
         "owner": {
           "label": "Cv Owner Name"
@@ -45,10 +45,10 @@
         }
       },
       "bottomButton": "Personal Details",
-      "error": "Please complete all require fields"
+      "error": "Please complete all required fields"
     },
     "personalDetails": {
-      "title": "Add your personal details",
+      "title": "Fill out your personal information",
       "back": "Personal Details",
       "form": {
         "fullName": {
@@ -74,24 +74,24 @@
           "label": "city"
         },
         "bio": {
-          "label": "Bio",
-          "placeHolder": "type about your self."
+          "label": "Objective",
+          "placeHolder": "Write information about yourself "
         }
       },
       "bottomButton": "Educations",
-      "error": "Please complete all require fields"
+      "error": "Please complete all required fields"
     },
     "educations": {
-      "title": "Create list with your degrees",
-      "back": "Education",
+      "title": "Write your certificates",
+      "back": "Educations",
       "form": {
         "title": {
-          "label": "Degree title",
-          "placeHolder": "your degree title"
+          "label": "Certificates",
+          "placeHolder": "certificates"
         },
         "place": {
-          "label": "Colleague",
-          "placeHolder": "Where you study"
+          "label": "University",
+          "placeHolder": "University"
         },
         "start": {
           "label": "Start date",
@@ -99,21 +99,21 @@
         },
         "end": {
           "label": "End date",
-          "placeHolder": "2021/09"
+          "placeHolder": "example: 2020/09"
         }
       },
       "bottomButton": "Works Experiences",
       "remove": "Remove",
-      "error": "Please complete all require fields",
+      "error": "Please complete all required fields",
       "list": "Educations List"
     },
     "works": {
-      "title": "Create list with your work experience",
+      "title": "Fill out your work experience",
       "back": "Work Experiences",
       "form": {
         "title": {
-          "label": "Job title",
-          "placeHolder": "your job title"
+          "label": "The name of the job.",
+          "placeHolder": "The name of the job."
         },
         "place": {
           "label": "Company",
@@ -134,11 +134,11 @@
       },
       "bottomButton": "Skills",
       "remove": "Remove",
-      "error": "Please complete all require fields",
+      "error": "Please complete all required fields",
       "list": "Work Experiences List"
     },
     "skills": {
-      "title": "Create list with your skills",
+      "title": "Fill out your skills",
       "back": "Skills",
       "form": {
         "title": {
@@ -151,11 +151,11 @@
       },
       "bottomButton": "Courses",
       "remove": "Remove",
-      "error": "Please complete all require fields",
+      "error": "Please complete all required fields",
       "list": "Skills List"
     },
     "courses": {
-      "title": "Create list with your courses",
+      "title": "Fill out your courses",
       "back": "Courses",
       "form": {
         "title": {
@@ -181,7 +181,7 @@
       },
       "bottomButton": "Preview",
       "remove": "Remove",
-      "error": "Please complete all require fields",
+      "error": "Please complete all required fields",
       "list": "Courses List"
     },
     "result": {
@@ -192,7 +192,7 @@
       "save": "Save",
       "share": "Share",
       "cv": {
-        "bioHolder": "Profile",
+        "bioHolder": "Objective",
         "skillsHolder": "Skills",
         "experienceHolder": "Experience",
         "educationHolder": "Education",
